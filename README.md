@@ -7,6 +7,4 @@
 4. kid="payments"
 5. cat jwt_public.pem | pem-jwk | jq "{\"kid\": \"${kid}\", \"alg\": \"RS256\", \"use\": \"sig\"} + ."
  
-
-references
-https://github.com/dannycoates/pem-jwk
+[More info](https://github.com/dannycoates/pem-jwk)
